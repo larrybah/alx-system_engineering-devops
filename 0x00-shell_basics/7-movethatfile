@@ -1,0 +1,2 @@
+#!/bin/bash
+touch betty | mv betty /tmp/my_first_directory/
