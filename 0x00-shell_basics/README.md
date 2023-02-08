@@ -5,3 +5,4 @@
 <br>05. ls -al - displays all files including hidden ones
 <br>06. ls -an - is used to display in long format but digits only
 <br>07 mkdir /tmp/my_first_directory - crates a new folder in tmp
+<br>9. rm -r /tmp/my_first_directory - to delete a directory from a folder
