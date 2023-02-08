@@ -6,3 +6,4 @@
 <br>06. ls -an - is used to display in long format but digits only
 <br>07 mkdir /tmp/my_first_directory - crates a new folder in tmp
 <br>9. rm -r /tmp/my_first_directory - to delete a directory from a folder
+<br>10. cd - to visit previous one
