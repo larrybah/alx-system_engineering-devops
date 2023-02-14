@@ -1,2 +1,2 @@
 #!/bin/bash
-export NUM=13.14
+echo "%.2f" $SUM
