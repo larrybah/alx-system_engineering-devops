@@ -1,2 +1,2 @@
 #!/bin/bash
-$(($GENERALKNOWLEDGE + 128))
+$(($TRUEKNOWLEDGE + 128))
