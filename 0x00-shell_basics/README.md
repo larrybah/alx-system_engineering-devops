@@ -4,3 +4,4 @@
 2. changes directory to home.
 3. list all files and directories.
 4. list all files and directories including hidden
+5. lists files and directories with uids in digits only.
