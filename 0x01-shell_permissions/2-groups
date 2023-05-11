@@ -1,2 +1,2 @@
 #!/bin/bash
-less /etc/group
+cat * /etc/group
