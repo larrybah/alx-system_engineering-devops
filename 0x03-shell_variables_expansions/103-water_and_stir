@@ -1,2 +1,2 @@
 #!/bin/bash
-BESTCHOL=$(echo "ibase=water; obase=bestchol; $WATER + $STIR" | bc)
+echo $(( $(echo $WATER | tr '[:lower:]' '[:upper:]') + $(echo $STIR | tr '[:lower:]' '[:upper:]') ))
