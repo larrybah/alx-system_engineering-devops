@@ -1,3 +1,2 @@
 #!/bin/bash
-$MY_NAME='id -un'
-echo "hello" MY_NAME
+echo "hello $(whoami)"
