@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 2 == 1'
+while read line; do echo "$line"; read line; done < "${1:-/dev/stdin}"
