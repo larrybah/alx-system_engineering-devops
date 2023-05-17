@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -f 1 < file.tsv | sort | uniq -c | sort -nr | head -n 11 | awk '{ print $2 }'
