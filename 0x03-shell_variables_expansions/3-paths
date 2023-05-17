@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra DIRS <<< "$PATH"; echo ${#DIRS[@]}
+echo $PATH | tr ':' '\n' | grep -c '^'
