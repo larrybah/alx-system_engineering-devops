@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1-1 poem.txt | tr -d '\n'; echo
+cut -c1 | paste -s | tr -d "[:blank:]"
