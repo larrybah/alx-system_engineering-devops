@@ -1,2 +1,2 @@
 #!/bin/bash
-while read line; do echo "$line"; read line; done < "${1:-/dev/stdin}"
+cat -n | cut --complement -c-5 | grep -v ^[02468] | cut --complement -c-2
