@@ -2,7 +2,7 @@
 # Loops from 1 to 10 and displays:
 #   "bad luck" for the 4th iteration
 #   "good luck" for the 8th iteration
-#   "Holberton School" for all other iterations
+#   "Best School" for all other iterations
 
 count=0
 
@@ -15,7 +15,7 @@ do
   then
     echo "good luck"
   else
-    echo "Holberton School"
+    echo "Best School"
   fi
   (( count++ ))
 done
